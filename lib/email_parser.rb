@@ -8,7 +8,7 @@ class EmailParser
   end
 
   def parse
-    new_list = @emails.split(/\s*,\s*/)
+    new_list = @emails.split(/\s*, | \s*/)
     parsed_list = new_list.delete_if { |email| email == "" }
     parsed_list.uniq
   end
