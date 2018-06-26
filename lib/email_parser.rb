@@ -10,8 +10,8 @@ class EmailParser
     parsed_str
   end
     
-    
-    
+
+
 
 
 
