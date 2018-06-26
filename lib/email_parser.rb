@@ -2,6 +2,16 @@ class EmailParser
 
   attr_accessor :emails
 
+  CSV = []
+
+  def initialize(str)
+    new_str = str.split(/\s*,\s*/)
+    parsed_str = new_str.parse
+    parsed_str
+  end
+    
+    
+    
 
 
 
